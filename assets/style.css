@@ -1,0 +1,130 @@
+/* --------- Global --------- */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(120deg, #e3f2fd, #f8f9fa);
+    margin: 0;
+    padding: 0;
+}
+
+/* --------- Header --------- */
+.header {
+    background: #0d6efd;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* --------- Container --------- */
+.container {
+    width: 450px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* --------- Forms --------- */
+form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+}
+
+/* --------- Buttons --------- */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #198754;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #157347;
+}
+
+/* --------- Links --------- */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+/* --------- Messages --------- */
+.success {
+    background: #d1e7dd;
+    color: #0f5132;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+/* --------- Dashboard Cards --------- */
+.dashboard h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dashboard p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    flex: 1 1 28%;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+.card .icon {
+    font-size: 40px;
+}
